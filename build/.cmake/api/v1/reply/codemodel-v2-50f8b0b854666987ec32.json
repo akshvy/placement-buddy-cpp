@@ -1,0 +1,120 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CURL::libcurl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CURL__libcurl-Debug-99e93086b5f21c5a1d83.json",
+					"name" : "CURL::libcurl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nlohmann_json::@1f73e43ed239fe3d59ae",
+					"jsonFile" : "target-nlohmann_json-Debug-9df674554de66eb257e7.json",
+					"name" : "nlohmann_json",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : "_deps/json-build",
+					"jsonFile" : "directory-_deps.json-build-Debug-34aae9470e2a88e21713.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "build/_deps/json-src"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PlacementBuddy",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "placement_buddy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-placement_buddy-Debug-58b728530cdd10909d98.json",
+					"name" : "placement_buddy",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/akshay/placement-buddy-cpp/build",
+		"source" : "/home/akshay/placement-buddy-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

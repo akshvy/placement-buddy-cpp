@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/akshay/placement-buddy-cpp/build",
+  "command": "/usr/bin/g++ -I/home/akshay/placement-buddy-cpp/build/_deps/json-src/include -g -std=gnu++17 -o CMakeFiles/placement_buddy.dir/main.cpp.o -c /home/akshay/placement-buddy-cpp/main.cpp",
+  "file": "/home/akshay/placement-buddy-cpp/main.cpp",
+  "output": "/home/akshay/placement-buddy-cpp/build/CMakeFiles/placement_buddy.dir/main.cpp.o"
+}
+]

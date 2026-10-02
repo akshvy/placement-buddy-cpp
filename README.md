@@ -1,4 +1,4 @@
-# PlacementBuddy CLI 🚀
+# PlacementBuddy CLI
 
 > **A high-performance, native C++ terminal client for local AI placement assistance and code analysis.**
 
@@ -11,16 +11,16 @@ Built during **Hacktoberfest 2026** for the DEV.to **"Build for a Friend"** Week
 ## ✨ Features
 
 * **⚡ Pure C++ Native Performance:** Built using C++17, `libcurl`, and `nlohmann/json` for minimal overhead and instant execution.
-* **🔒 100% Local & Private:** Connects to your local Ollama instance (`http://localhost:11434`). No API keys or external servers required.
-* **🌊 Real-time Stream Output:** Uses asynchronous HTTP streaming callbacks to print model responses line-by-line in real time.
-* **🎯 Mode Switching:**
+* ** 100% Local & Private:** Connects to your local Ollama instance (`http://localhost:11434`). No API keys or external servers required.
+* ** Real-time Stream Output:** Uses asynchronous HTTP streaming callbacks to print model responses line-by-line in real time.
+* ** Mode Switching:**
   * `dsa` (Default): Analyzes code for time/space complexity, edge cases, and suggests 2 modified interview variations.
   * `quiz`: Generates 3 multiple-choice practice questions with detailed explanations.
   * `explain`: Explains code line-by-line, highlighting potential logical bugs or performance bottlenecks.
 
 ---
 
-## 🛠️ Prerequisites & Dependencies
+##  Prerequisites & Dependencies
 
 Ensure you have the following installed on your system (Debian/Ubuntu/Linux):
 
